@@ -1,12 +1,9 @@
-import CameraInput from "@/components/CameraInput";
-import FileInput from "@/components/FileInput";
+import Picker from "@/components/Picker";
 
 export default function Home() {
   return (
     <main>
-      <CameraInput />
-
-      <FileInput />
+      <Picker />
     </main>
   );
 }
